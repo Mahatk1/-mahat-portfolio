@@ -85,8 +85,7 @@ scrollTopBtn.addEventListener('click', () => {
 const typedEl = document.getElementById('typed-text');
 const phrases = [
   'Informatics Student',
-  'Problem Solver',
-  'Software Engineer'
+  'Open to Opportunities'
 ];
 
 let phraseIndex = 0;
