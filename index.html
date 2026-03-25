@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahat Nur | Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <!-- AOS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">
+        <span class="brand-bracket">&lt;</span>Mahat<span class="brand-dot">.</span>dev<span class="brand-bracket">/&gt;</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="toggler-icon"></span>
+        <span class="toggler-icon"></span>
+        <span class="toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item">
+            <a class="nav-link nav-cta" href="mailto:Mahatkamal66@gmail.com">Hire Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="container hero-content">
+      <div class="row align-items-center min-vh-100">
+        <div class="col-lg-8" data-aos="fade-up" data-aos-duration="900">
+          <p class="hero-greeting">Hello, World! <span class="wave">👋</span></p>
+          <h1 class="hero-title">Hi, I'm <span class="gradient-text">Mahat Nur</span></h1>
+          <h2 class="hero-subtitle">
+            <span class="typed-prefix">I'm a </span><span id="typed-text"></span><span class="typed-cursor">|</span>
+          </h2>
+          <p class="hero-desc">
+            I build real-world applications and enjoy solving problems through code.
+          </p>
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary-custom">View My Work <i class="fas fa-arrow-down ms-2"></i></a>
+            <a href="#contact" class="btn btn-outline-custom">Get In Touch</a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com/Mahatk1" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/mahat-nur-24384127a/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:Mahatkamal66@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 d-none d-lg-flex justify-content-end" data-aos="fade-left" data-aos-duration="900" data-aos-delay="200">
+          <div class="hero-code-card">
+            <div class="code-card-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="code-card-title">mahat.js</span>
+            </div>
+            <pre class="code-card-body"><code><span class="c-keyword">const</span> <span class="c-var">developer</span> = {
+  <span class="c-key">name</span>: <span class="c-str">"Mahat Nur"</span>,
+  <span class="c-key">school</span>: <span class="c-str">"UW Seattle"</span>,
+  <span class="c-key">major</span>: <span class="c-str">"Informatics"</span>,
+  <span class="c-key">year</span>: <span class="c-str">"Sophomore"</span>,
+  <span class="c-key">passion</span>: <span class="c-str">"Building apps"</span>,
+  <span class="c-key">available</span>: <span class="c-bool">true</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Get to Know Me</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      </div>
+      <div class="row align-items-center g-5 mt-2">
+        <div class="col-lg-5" data-aos="fade-right" data-aos-duration="800">
+          <div class="about-img-wrapper">
+            <div class="about-img-bg"></div>
+            <div class="about-initials">MN</div>
+            <div class="about-badge">
+              <i class="fas fa-map-marker-alt"></i> Seattle, WA
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7" data-aos="fade-left" data-aos-duration="800">
+          <div class="about-text">
+            <p>
+              I'm <strong>Mahat Nur</strong>, a sophomore studying Informatics at the
+              <strong>University of Washington</strong> with a focus on software development
+              and building meaningful digital experiences. I'm passionate about turning
+              ideas into real, working applications that solve genuine problems.
+            </p>
+            <p>
+              My journey in tech has taken me from learning core programming fundamentals
+              to shipping full-stack web applications. I enjoy working across the entire
+              stack — from designing clean frontends to architecting scalable backends with
+              databases, APIs, and authentication systems.
+            </p>
+            <p>
+              When I'm not coding, I'm exploring new technologies, sharpening my
+              problem-solving skills, and looking for opportunities to contribute to
+              impactful projects. I'm actively seeking internships and collaborative work
+              where I can grow as an engineer.
+            </p>
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-number">2+</span>
+                <span class="stat-label">Projects Shipped</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-number">UW</span>
+                <span class="stat-label">Informatics</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-number">Open</span>
+                <span class="stat-label">To Opportunities</span>
+              </div>
+            </div>
+            <a href="mailto:Mahatkamal66@gmail.com" class="btn btn-primary-custom mt-3">
+              Let's Talk <i class="fas fa-paper-plane ms-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section-padding section-dark">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">What I Work With</span>
+        <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+      </div>
+      <div class="row g-4 mt-2 justify-content-center">
+
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="0">
+          <div class="skill-card">
+            <div class="skill-icon" style="background: linear-gradient(135deg, #e34f26, #f06529);">
+              <i class="fab fa-html5"></i>
+            </div>
+            <span class="skill-name">HTML5</span>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="60">
+          <div class="skill-card">
+            <div class="skill-icon" style="background: linear-gradient(135deg, #264de4, #2965f1);">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <span class="skill-name">CSS3</span>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="120">
+          <div class="skill-card">
+            <div class="skill-icon" style="background: linear-gradient(135deg, #f0db4f, #e5b600);">
+              <i class="fab fa-js-square"></i>
+            </div>
+            <span class="skill-name">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="180">
+          <div class="skill-card">
+            <div class="skill-icon" style="background: linear-gradient(135deg, #3c873a, #68a063);">
+              <i class="fab fa-node-js"></i>
+            </div>
+            <span class="skill-name">Node.js</span>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="240">
+          <div class="skill-card">
+            <div class="skill-icon" style="background: linear-gradient(135deg, #000000, #333);">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" style="width:32px;filter:invert(1);" />
+            </div>
+            <span class="skill-name">Express.js</span>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="300">
+          <div class="skill-card">
+            <div class="skill-icon" style="background: linear-gradient(135deg, #336791, #4a90d9);">
+              <i class="fas fa-database"></i>
+            </div>
+            <span class="skill-name">PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="360">
+          <div class="skill-card">
+            <div class="skill-icon" style="background: linear-gradient(135deg, #b07219, #e8a020);">
+              <i class="fab fa-java"></i>
+            </div>
+            <span class="skill-name">Java</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section-padding">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+      </div>
+      <div class="row g-4 mt-2 justify-content-center">
+
+        <!-- Project 1: NurBank -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+          <div class="project-card">
+            <div class="project-card-header">
+              <div class="project-header-icons">
+                <i class="fas fa-folder-open project-folder-icon"></i>
+                <div class="project-links-top">
+                  <a href="https://github.com/Mahatk1/Banking-system-real" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                  <a href="https://banking-system-real-production.up.railway.app" target="_blank" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+              <div class="project-label">Full-Stack App</div>
+            </div>
+            <h3 class="project-title">NurBank</h3>
+            <p class="project-desc">
+              A full-stack banking web application built with Node.js, Express, and PostgreSQL.
+              Features include user login/registration, real-time money transfers, deposits,
+              withdrawals, transaction history, and an AI-powered chat assistant. Deployed
+              live on Railway with a production PostgreSQL database.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">Node.js</span>
+              <span class="tech-badge">Express.js</span>
+              <span class="tech-badge">PostgreSQL</span>
+              <span class="tech-badge">JWT</span>
+              <span class="tech-badge">HTML/CSS</span>
+              <span class="tech-badge">JavaScript</span>
+            </div>
+            <div class="project-btns">
+              <a href="https://banking-system-real-production.up.railway.app" target="_blank" class="btn btn-primary-custom btn-sm-custom">
+                <i class="fas fa-rocket me-2"></i>Live Demo
+              </a>
+              <a href="https://github.com/Mahatk1/Banking-system-real" target="_blank" class="btn btn-outline-custom btn-sm-custom">
+                <i class="fab fa-github me-2"></i>GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Snake Game -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+          <div class="project-card">
+            <div class="project-card-header">
+              <div class="project-header-icons">
+                <i class="fas fa-folder-open project-folder-icon"></i>
+                <div class="project-links-top">
+                  <a href="https://github.com/Mahatk1/Snake-game-" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+              <div class="project-label">Game Dev</div>
+            </div>
+            <h3 class="project-title">Snake Game</h3>
+            <p class="project-desc">
+              A classic Snake game originally built in Java using Swing/AWT graphics,
+              then converted into a browser-based version. Includes score tracking,
+              dynamic speed control as the snake grows, and clean game-over detection —
+              a fun exploration of both Java OOP and browser game development.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">Java</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">HTML</span>
+              <span class="tech-badge">CSS</span>
+            </div>
+            <div class="project-btns">
+              <a href="https://github.com/Mahatk1/Snake-game-" target="_blank" class="btn btn-primary-custom btn-sm-custom">
+                <i class="fab fa-github me-2"></i>GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section-padding section-dark">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="100">
+          <p class="contact-intro">
+            I'm currently open to internship opportunities, collaborations, or just a good conversation
+            about tech. My inbox is always open — feel free to reach out.
+          </p>
+          <a href="mailto:Mahatkamal66@gmail.com" class="btn btn-primary-custom btn-lg contact-email-btn">
+            <i class="fas fa-envelope me-2"></i>Mahatkamal66@gmail.com
+          </a>
+          <div class="contact-socials">
+            <a href="https://github.com/Mahatk1" target="_blank" class="contact-social-link" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/mahat-nur-24384127a/" target="_blank" class="contact-social-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="mailto:Mahatkamal66@gmail.com" class="contact-social-link" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-brand">
+          <span class="brand-bracket">&lt;</span>Mahat<span class="brand-dot">.</span>dev<span class="brand-bracket">/&gt;</span>
+        </span>
+        <p class="footer-copy">Built by <strong>Mahat Nur</strong></p>
+        <div class="footer-socials">
+          <a href="https://github.com/Mahatk1" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/mahat-nur-24384127a/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll To Top -->
+  <button id="scrollTop" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
