@@ -677,7 +677,7 @@ body {
   height: 100%;
   object-fit: cover;
   object-position: top;
-  transition: transform 0.45s ease;
+
   display: block;
 }
 
@@ -708,8 +708,6 @@ body {
   color: #000;
 }
 
-.project-card:hover .project-thumbnail img { transform: scale(1.05); }
-.project-card:hover .project-thumbnail-overlay { opacity: 1; }
 
 .project-card {
   background: var(--bg-card);
