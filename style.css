@@ -531,25 +531,15 @@ body {
   opacity: 0.25;
 }
 
-.about-initials {
+.about-photo {
   position: absolute;
   inset: 10px;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  object-fit: cover;
   border-radius: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 5rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--bg-card), var(--bg-card-hover));
-  letter-spacing: -0.05em;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background: var(--gradient-text);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  border: 1px solid var(--border);
+  display: block;
 }
 
 .about-badge {
